@@ -1,0 +1,27 @@
+:root {
+  --primary-color: #000000;
+  --secondary-color: #ffffff;
+  --text-color: #333333;
+  --subtext-color: #666666;
+  --background-color: #ffffff;
+  --graphql-pink: #ff2c99b5;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--text-color);
+}
